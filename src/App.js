@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-
+import moteros from "./assets/images/moteros.png";
 import AddTutorial from "./components/add-tutorial.component";
 import Tutorial from "./components/tutorial.component";
 import TutorialsList from "./components/tutorials-list.component";
@@ -13,7 +13,8 @@ class App extends Component {
       <div>
         <nav className="navbar navbar-expand navbar-dark bg-dark">
           <Link to={"/tutorials"} className="navbar-brand">
-            Moteros
+          <img src={moteros} alt="Logo" />
+            On ROAD
           </Link>
           <div className="navbar-nav mr-auto">
             <li className="nav-item">

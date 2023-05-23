@@ -143,7 +143,7 @@ export default class TutorialsList extends Component {
         <div className="col-md-6">
           {currentTutorial ? (
             <div>
-              <h4>Tutorial</h4>
+              <h4>Moto</h4>
               <div>
                 <label>
                   <strong>Title:</strong>
@@ -209,7 +209,7 @@ export default class TutorialsList extends Component {
           ) : (
             <div>
               <br />
-              <p>Please click on a Tutorial...</p>
+              <p>Por favor haga click en una Moto...</p>
             </div>
           )}
         </div>

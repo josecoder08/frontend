@@ -174,7 +174,7 @@ class Tutorial extends Component {
       .then(response => {
         console.log(response.data);
         this.setState({
-          message: "The tutorial was updated successfully!"
+          message: "La moto se ha actualizado correctamente!"
         });
       })
       .catch(e => {
@@ -200,7 +200,7 @@ class Tutorial extends Component {
       <div>
         {currentTutorial ? (
           <div className="edit-form">
-            <h4>Tutorial</h4>
+            <h4>Moto</h4>
             <form>
               <div className="form-group">
                 <label htmlFor="title">Title</label>
@@ -326,7 +326,7 @@ class Tutorial extends Component {
         ) : (
           <div>
             <br />
-            <p>Please click on a Tutorial...</p>
+            <p>Por favor haga click en la moto...</p>
           </div>
         )}
       </div>
